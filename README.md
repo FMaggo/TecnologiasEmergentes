@@ -1,5 +1,7 @@
 Title: Image Transformation
 
+IMPORTANT: Read Wiki page on Github for further disclosure of project.
+
 Description: Code used to tranform images in different manner (i.e: Grey scale, flipped horizontal- vertically, Blur via Kernels)
 
 Installation instructions: 
