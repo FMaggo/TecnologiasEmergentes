@@ -1,24 +1,3 @@
-/*
- * image_transforms_omp.c
- * Transformaciones de imágenes BMP con paralelización a nivel de tareas usando OpenMP.
- *
- * Compilar:
- *   gcc -O2 -fopenmp image_transforms_omp.c -o image_transforms_omp
- *
- * Uso:
- *   ./image_transforms_omp <imagen1.bmp> <imagen2.bmp> <imagen3.bmp> <num_threads>
- *
- * Transformaciones realizadas (en paralelo con tasks):
- *   1. Inversión horizontal en escala de grises
- *   2. Inversión vertical en escala de grises
- *   3. Desenfoque (box blur) en escala de grises
- *   4. Inversión horizontal a color
- *   5. Inversión vertical a color
- *   6. Desenfoque (box blur) a color
- *
- * Autores: Proyecto OpenMP - Análisis de rendimiento
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
